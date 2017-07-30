@@ -19,7 +19,12 @@ public class BlockL1 extends Tetris {
 				             {0, 1, 0, 0},
 				             {0, 1, 1, 0},
 				             {0, 0, 0, 0}};
-		
+
+		TOP = 0;
+		BUTTON = 2;
+		LEFT = 1;
+		RIGHT = 2;
+
 		this.block = initBlock;
 		this.transBlock = BlockL2.getInstance();
 	}

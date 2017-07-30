@@ -20,6 +20,11 @@ public class BlockZ2 extends Tetris {
                              {0, 0, 0, 0},
                              {0, 0, 0, 0}};
 
+        TOP = 0;
+        BUTTON = 1;
+        LEFT = 0;
+        RIGHT = 2;
+
         this.block = initBlock;
         this.transBlock = BlockZ3.getInstance();
     }

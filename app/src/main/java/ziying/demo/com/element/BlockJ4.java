@@ -15,11 +15,16 @@ public class BlockJ4 extends Tetris {
 	
 	@Override
 	public void init() {
-		int[][] initBlock = {{0, 1, 0, 0},
-				             {1, 1, 0, 0},
-				             {0, 1, 0, 0},
+		int[][] initBlock = {{0, 0, 0, 0},
+				             {1, 1, 1, 0},
+				             {0, 0, 1, 0},
 				             {0, 0, 0, 0}};
-		
+
+		TOP = 1;
+		BUTTON = 2;
+		LEFT = 0;
+		RIGHT = 2;
+
 		this.block = initBlock;
 		this.transBlock = BlockJ1.getInstance();
 	}
